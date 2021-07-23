@@ -174,7 +174,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "helloworld-tonic"
+name = "helloworld"
 version = "0.1.0"
 dependencies = [
  "prost",

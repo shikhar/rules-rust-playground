@@ -1,7 +1,11 @@
 [package]
-name = "helloworld-tonic"
+name = "helloworld"
 version = "0.1.0"
 edition = "2018"
+
+[lib]
+name = "helloworld"
+path = "src/lib.rs"
 
 [[bin]] # Bin to run the HelloWorld gRPC server
 name = "helloworld-server"
