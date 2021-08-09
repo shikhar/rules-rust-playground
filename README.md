@@ -1,6 +1,4 @@
-Cargo-based project for attempting Bazelification on.
-
-Created using https://github.com/hyperium/tonic/blob/master/examples/helloworld-tutorial.md
+Created using https://github.com/hyperium/tonic/blob/master/examples/helloworld-tutorial.md, initial Bazelification in https://github.com/shikhar/bazel-tonic/pull/1 using `rules_rust`.
 
 ## dependency pinning
 
