@@ -1,5 +1,5 @@
-use helloworld::codegen::greeter_client::GreeterClient;
-use helloworld::codegen::HelloRequest;
+use protogen::greeter_client::GreeterClient;
+use protogen::HelloRequest;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {

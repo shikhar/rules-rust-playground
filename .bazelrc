@@ -1,0 +1,2 @@
+build --repo_env=RULES_RUST_TOOLCHAIN_INCLUDE_RUSTC_SRCS=true
+build --compilation_mode=dbg

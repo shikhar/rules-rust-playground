@@ -1,7 +1,7 @@
 use tonic::{transport::Server, Request, Response, Status};
 
-use helloworld::codegen::greeter_server::{Greeter, GreeterServer};
-use helloworld::codegen::{HelloReply, HelloRequest};
+use protogen::greeter_server::{Greeter, GreeterServer};
+use protogen::{HelloReply, HelloRequest};
 
 #[derive(Debug, Default)]
 pub struct MyGreeter {}
@@ -15,7 +15,7 @@ impl Greeter for MyGreeter {
         println!("Got a request: {:?}", request);
 
         let reply = HelloReply {
-            message: format!("Hello {}!", request.into_inner().name).into(),
+            message: format!("Hello {}!", request.into_inner().name),
         };
 
         Ok(Response::new(reply))
