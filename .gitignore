@@ -1,7 +1,9 @@
 target/
 
+.vscode
+
 # bazel-* symlinks
-/bazel-*
+bazel-*
 
 # generated for rust analyzer with rules_rust
 # see https://bazelbuild.github.io/rules_rust/rust_analyzer.html
