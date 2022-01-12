@@ -28,7 +28,7 @@ crate_universe(
     packages = [
         crate.spec(
             name = "value-bag",
-            semver = "=1.0.0-alpha.6",
+            semver = "=1.0.0-alpha.7",
         ),
     ],
     resolver = "@rules_rust_crate_universe_bootstrap//:crate_universe_resolver",
